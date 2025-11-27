@@ -70,6 +70,9 @@
         animation-delay: 0.2s;
       }
 
+      .space{
+        color: #081b2900;
+      }
       .navbar a {
         font-size: 24px;
         color: white;
@@ -208,6 +211,47 @@
           width: 0;
         }
       }
+
+      @media (max-width: 768px) {
+        .header{
+            background-color: #081b29;
+        }
+        .navbar a {
+          margin-right: 20px;
+          font-size: 18px;
+        }
+        .about-box h2 {
+          font-size: 30px;
+          position: absolute;
+          top: 20px;
+          left: 15px;
+        }
+        .title{
+          font-size: 30px;
+          position: absolute;
+          top: 130px;
+        }
+
+        .dis{
+          font-size: 20px;
+          position: absolute;
+          top: 190px;
+        }
+
+        .projects-container {
+          flex-direction: column;
+          position: absolute;
+          top: 350px;
+          right: 20px;
+          left: 20px;
+          bottom: 20px;
+        }
+        .space{
+          color: #081b2900;
+          position: absolute;
+          top: 950px;
+        }
+      }
     </style>
     <header class="header">
       <div class="name">
@@ -292,5 +336,6 @@
         </div>
       </div>
     </section>
+    <p class="space">space</p>
   </body>
 </html>
